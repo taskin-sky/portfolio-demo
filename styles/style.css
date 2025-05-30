@@ -44,11 +44,6 @@ button {
     border-radius: 30px;
 }
 
-.btn:hover {
-    background-image: linear-gradient(to right, #3f00a3, #725f91);
-    color: white !important;
-    font-size: large;
-}
 
 
 
@@ -127,12 +122,23 @@ button {
 }
 
 
+
+
 /* ----------------------------------------------- */
 .services-container {
     margin: 20px;
     padding: 20px;
     box-shadow: 2px 6px 16px rgba(78, 166, 242, 0.4);
 }
+
+.service-heading {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    color: #3f00a3;
+    font-weight: bolder;
+    font-size: 50PX;
+}
+
 
 .srvc-card {
     display: flex;
@@ -143,14 +149,36 @@ button {
 
 .srvc-card > div {
     width: 30%;          /* 3 cards per row */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
     padding: 15px;
     box-sizing: border-box;
 }
 
+.srvc-name {
+    color: rgb(138, 43, 226);
+}
+
+.srvc-input-icon {
+    width: 20px;
+    height: 25px;
+}
+
+.srvc-icon {
+    width: 20px;
+    height: 25px;
+    transition: opacity 0.3s ease;
+}
 
 
+/* ________________________________________________ */
 
+.recent-work-container {
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

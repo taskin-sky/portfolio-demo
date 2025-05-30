@@ -1,0 +1,40 @@
+.btn:hover {
+    background-image: linear-gradient(to right, #3f00a3, #725f91);
+    color: white !important;
+    font-size: large;
+}
+
+
+/* Hide hover image by default */
+.hover-icon {
+    display: none;
+}
+
+/* On hover, swap visibility */
+.srvc-card-mini:hover .default-icon {
+    display: none;
+}
+
+.srvc-card-mini:hover .hover-icon {
+    display: inline;
+    width: 25px;
+    height: 30px;
+}
+.srvc-card-mini:hover {
+    color: white;
+    width: 32%;
+    font-weight: bolder;
+    border-radius: 30px;
+    box-shadow: 2px 6px 16px rgba(78, 166, 242, 0.8);
+}
+
+.srvc-card-mini:hover,
+.srvc-card-mini:hover h1,
+.srvc-card-mini:hover h2,
+.srvc-card-mini:hover p,
+.srvc-card-mini:hover img {
+    background:linear-gradient(to right, #3f00a3, #725f91);
+}
+
+
+
